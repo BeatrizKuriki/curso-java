@@ -6,3 +6,4 @@ Realizado o estudo dos tipos primitivos em Java, strings e como nomear variávei
 Três operações básicas, processamento da dados, casting.
 Entrada de dados e Funções Matemáticas em Java.
 Realizado exercícios para iniciantes.
+Teste
