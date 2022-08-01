@@ -6,3 +6,7 @@ Entrada de dados e Funções Matemáticas em Java.
 Realizado exercícios para iniciantes.
 Teste
 Estruturas de repetição simples e compostas + exercicios
+Operador ternário
+Sintaxe de atribuição cumulativa
+Estrutura swith-case
+Escopo e Inicialização
