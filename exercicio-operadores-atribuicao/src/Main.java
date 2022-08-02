@@ -20,6 +20,14 @@ public class Main {
 		
 		
 		sc.close();
+		
+		/*OPERADORES DE ATRIBUIÇÃO CUMULATIVA
+		 * A +=B; equivalente -> a = a + b;
+		 * A -=B; equivalente -> a = a - b;
+		 * A *=B; equivalente -> a = a * b;
+		 * A /=B; equivalente -> a = a / b;
+		 * A %=B; equivalente -> a = a % b;
+		 */
 
 	}
 
