@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// OBS: A ESTRUTURA PARA É ÓTIMA PARA FAZER UMA REPETIÇÃO BASEADA EM UMA CONTAGEM
 		Scanner sc = new Scanner(System.in);
 		
 		
@@ -14,7 +14,7 @@ public class Main {
 			soma = soma + x;
 			
 			
-				
+			
 		}
 		System.out.println(soma);
 		
