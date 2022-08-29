@@ -29,15 +29,16 @@ public class Program {
 		for (int i = 0; i < n; i++) {
 			if(maisVelho<vect[i].getIdade()) {
 				maisVelho = vect[i].getIdade();
-				nomeMaisVelho = String.valueOf(maisVelho);
+				//nomeMaisVelho = String.valueOf(maisVelho);
+				nomeMaisVelho = vect[i].getNome();
 				
 				
 			}
-			System.out.println("PESSOA MAIS VELHA:" + nomeMaisVelho);
+			
 	
 			
 		}
-		
+		System.out.println("PESSOA MAIS VELHA:" + nomeMaisVelho);
 
 	}
 
