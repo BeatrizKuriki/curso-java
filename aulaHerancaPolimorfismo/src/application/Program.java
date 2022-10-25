@@ -38,8 +38,23 @@ public class Program {
 				list.add(new Company(name, anualIncome, numberOfEmployees));
 			}
 
-			sc.close();
+			
 		}
+		
+		System.out.println();
+		System.out.println("TAXES PAID: ");
+		for(TaxPayer tp : list) {
+			System.out.println(tp.getName() + ":$ "+ String.format("%.2f", tp.tax()));
+		}
+		
+		System.out.println();
+		
+		double sum = 0.0;
+		for(TaxPayer tp : list) {
+			sum += tp.tax();		
+		}
+		
+		System.out.println("TOTAL TAXES : $ " + String.format("%.2f", sum));
 
 		sc.close();
 
