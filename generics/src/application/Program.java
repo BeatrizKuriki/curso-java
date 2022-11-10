@@ -9,10 +9,19 @@ public class Program {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		PrintService ps = new PrintService();
+		PrintService<Integer> ps = new PrintService<>();
 		
 		System.out.print("How many values?");
 		int n = sc.nextInt();
+		
+		/*
+		 * Por conta do type safety do generics agora depois de instanciar um tipo integer só é possível add inteiros 
+		 * caso queira add uma string será necessário instanciar um novo objeto printservice do tipo string
+		 */
+		
+		//ps.addValue("Maria);
+		
+	
 		
 		for (int i=0; i< n; i++) {
 			Integer value = sc.nextInt();
